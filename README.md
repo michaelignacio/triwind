@@ -9,7 +9,7 @@ Make sure you have `node` and `npm` installed on your local environment.
 After pulling this repo to your `tri-child` folder:
 1. Move the files inside the `triwind` folder into the parent folder, `tri-child`. You can do this by running the following command in the `tri-child` folder:
 ```
-mv triwind/* . && rm -rf triwind
+mv triwind/* triwind/.* . && rm -rf triwind
 ```
 2. Install NPM packages by running `npm i` on the child theme folder.
 3. Rename `.env.example` to `.env`, and update the URL variable your site's local URL.

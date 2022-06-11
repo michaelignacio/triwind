@@ -3,6 +3,11 @@ module.exports = {
   theme: {
     extend: {
       spacing: {},
+      screens: {
+        'tablet': '768px',
+        'desktop': '992px',
+        'lg-desktop': '1200px',
+      },
     },
   },
   plugins: [],

@@ -7,8 +7,8 @@ Triwind is a minimal boilerplate for Tri theme using [Tailwind CSS](https://tail
 Make sure you have `node` and `npm` installed on your local environment.
 
 After pulling this repo to your `tri-child` folder:
-1. On the `triwind` folder, run the command `npm run move` (this will move the files to the `tri-child` directory).
-2. Go up one folder to the `tri-child` directory and run the command `npm run cleanup`. This will delete the now empty folder `triwind`).
+1. Move the files inside the `triwind` folder into the `tri-child` main directory. (You may also run the command `npm run move` inside `triwind` to achieve the same effect).
+2. Delete the now empty folder `triwind` (or go up one folder to the `tri-child` directory and run the command `npm run cleanup`).
 3. Install NPM packages by running `npm i` on the `tri-child` directory.
 4. Rename `.env.example` to `.env`, and update the URL variable your site's local URL.
 5. Append this line to your `style.scss` file (this will add Tailwind utilities to your Tri styles): 

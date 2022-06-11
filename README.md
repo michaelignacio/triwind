@@ -11,7 +11,7 @@ After pulling this repo to your `tri-child` folder:
 2. Go to the `tri-child` directory and run the command `npm run cleanup` (this will delete the now empty folder `triwind`).
 3. Install NPM packages by running `npm i` on the `tri-child` directory.
 4. Rename `.env.example` to `.env`, and update the URL variable your site's local URL.
-5. Appending this line to your `style.scss` file (this will add Tailwind utilities to your Tri styles): 
+5. Append this line to your `style.scss` file (this will add Tailwind utilities to your Tri styles): 
 
 ```scss
 @import "tailwindcss/utilities";

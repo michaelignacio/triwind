@@ -14,7 +14,7 @@ After pulling this repo to your `tri-child` folder:
 5. Append this line to your `style.scss` file (this will add the Tailwind utilities you used to your Tri styles): 
 
 ```scss
-@import "tailwindcss/utilities";
+@import "tailwind-styles";
 ```
 
 6. Run `npm run watch` to watch for file changes (`.php`, `.scss`) and trigger automatic recompile and rebuild.

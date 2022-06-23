@@ -17,6 +17,12 @@ After pulling this repo to your `tri-child` folder:
 @import "tailwind-styles";
 ```
 
+5.1 Create a new .scss file specific for Tailwind classes and add this as the first line:
+
+```
+@import "tailwindcss/utilities";
+```
+
 6. Run `npm run watch` to watch for file changes (`.php`, `.scss`) and trigger automatic recompile and rebuild.
 
 A prefix has been added to the Tailwind configuration to explicitly distinguish Tailwind classes from Tri classes. The default prefix has been set to `tw-`.

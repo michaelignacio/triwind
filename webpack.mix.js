@@ -3,6 +3,7 @@ require('mix-tailwindcss');
 
 mix
   .sass('style.scss', 'style.css')
+  .sass('tailwind.scss', 'tailwind-styles.css')
   .tailwind()
   // .minify('assets/js/tri-custom.js', 'assets/js/tri-custom-min.js')
   .browserSync({

@@ -19,7 +19,7 @@ After pulling this repo to your `tri-child` folder:
 
 5.1 Create a new .scss file specific for Tailwind classes and add this as the first line:
 
-```
+```scss
 @import "tailwindcss/utilities";
 ```
 

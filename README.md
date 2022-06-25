@@ -11,19 +11,19 @@ After pulling this repo to your `tri-child` folder:
 2. Delete the now empty folder `triwind` (or go up one folder to the `tri-child` directory and run the command `npm run cleanup`).
 3. Install npm dependencies by running `npm i` on the `tri-child` directory.
 4. Rename `.env.example` to `.env`, and update the URL variable on the file to your site's local URL.
-5. Append this line to your `style.scss` file (this will add the Tailwind utilities you used to your Tri styles): 
-
-```scss
-@import "tailwind-styles";
-```
-
-5.1 Create a new .scss file specific for Tailwind classes and add this as the first line:
+5. Create a new .scss file specific for Tailwind classes and add this as the first line (this will enable you to use Tailwind classes):
 
 ```scss
 @import "tailwindcss/utilities";
 ```
 
-6. Run `npm run watch` to watch for file changes (`.php`, `.scss`) and trigger automatic recompile and rebuild.
+6. Append this line to your `style.scss` file (this file contains the styles of the Tailwind classes you used): 
+
+```scss
+@import "tailwind-styles";
+```
+
+7. Run `npm run watch` to watch for file changes (`.php`, `.scss`) and trigger automatic recompile and rebuild.
 
 A prefix has been added to the Tailwind configuration to explicitly distinguish Tailwind classes from Tri classes. The default prefix has been set to `tw-`.
 
